@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Estiven Beltrán Arias, estudiante de Ingeniería en Informática.">
+    <meta name="author" content="Estiven Beltrán Arias">
+    <title>Estiven Beltrán | Portafolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #0f172a;
+            --light: #f1f5f9;
+            --gray: #64748b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        nav {
+            background: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: var(--primary);
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+
+        aside {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        footer a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Estiven Beltrán Arias</h1>
+    <p>Estudiante de Ingeniería en Informática | Futuro Desarrollador de Software</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <div class="card">
+        <p>
+            Soy estudiante de Ingeniería en Informática en Manizales, apasionado por el desarrollo de software,
+            la programación orientada a objetos y la creación de soluciones tecnológicas eficientes.
+            Me caracterizo por mi disciplina, responsabilidad y constante deseo de aprendizaje.
+        </p>
+    </div>
+</section>
+
+<section id="formacion">
+    <h2>Formación Académica</h2>
+    <div class="card">
+        <h3>Ingeniería en Informática</h3>
+        <p>2024 - Actualidad</p>
+    </div>
+    <div class="card">
+        <h3>Técnico en Diseño Gráfico</h3>
+        <p>2022</p>
+    </div>
+</section>
+
+<section id="experiencia">
+    <h2>Experiencia</h2>
+    <div class="card">
+        <h3>Auxiliar Administrativo - Ferretería</h3>
+        <p>Atención al cliente, gestión de inventario y apoyo en facturación.</p>
+    </div>
+</section>
+
+<section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+        <div class="card">
+            <h3>Técnicas</h3>
+            <ul>
+                <li>Java (POO)</li>
+                <li>Estructuras de Datos</li>
+                <li>HTML5 & CSS3</li>
+                <li>Bases de Datos</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Blandas</h3>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Comunicación efectiva</li>
+                <li>Responsabilidad</li>
+                <li>Adaptabilidad</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="card">
+        <h3>Sistema Bancario en Java</h3>
+        <p>Aplicación orientada a objetos para gestión de cuentas y transacciones.</p>
+    </div>
+
+    <div class="card">
+        <h3>Sistema de Gestión de Taxis</h3>
+        <p>Programa desarrollado en Java para administrar vehículos y conductores.</p>
+    </div>
+</section>
+
+</main>
+
+<aside>
+    <h2>Información Adicional</h2>
+    <p>📍 Manizales, Colombia</p>
+    <p>🌎 Español (Nativo) | Inglés (Básico)</p>
+    <p>💡 Intereses: Desarrollo Web, IA, Apps móviles</p>
+</aside>
+
+<footer id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: <a href="mailto:estiven.beltran61776@ucaldas.edu.co">estiven.beltran61776@ucaldas.edu.co</a></p>
+    <p>© <span id="year"></span> Estiven Beltrán Arias</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
