@@ -1,0 +1,67 @@
+/* Estilos personalizados */
+/*
+body {
+    background-color: #f3e3e3; 
+}
+
+.card.shadow {
+    border: none;
+    border-radius: 12px;
+}
+
+h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+
+#contenedorProductos .card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; 
+}
+
+
+#contenedorProductos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.text-success {
+    font-size: 1.2rem;
+}
+
+#btnCrear {
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

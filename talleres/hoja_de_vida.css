@@ -1,0 +1,64 @@
+/* Selector universal */
+* {
+    color: rgb(32, 22, 22);
+}
+
+/* Selector de elemento */
+p {
+    line-height: 2.0;
+}
+
+/* Selector de clase */
+.destacado {
+    font-weight: bold;
+}
+
+/* Selector de ID */
+#encabezado-principal {
+    font-size: 2rem;
+    position: static;
+}
+
+/* Selector de atributo */
+input[type="email"] {
+    border: 2px solid rgb(154, 4, 4);
+    position: fixed;
+}
+
+input[type="text"] {
+    border: 3px solid green;
+    position: relative ;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+    
+
+}
+
+/* Descendiente */
+.contenedor p {
+    margin-bottom: 10px;
+}
+
+/* Hijo directo */
+.sidebar > ul {
+    list-style: none;
+    padding-left: 1;
+    position: absolute;
+}
+
+/* Hermano adyacente */
+h2 + p {
+    font-weight: bold;
+}
+
+/* Hermanos generales */
+h2 ~ p {
+    color: gray;
+}
+
+.pegajoso {
+    color: red;
+    position: sticky;
+
+}

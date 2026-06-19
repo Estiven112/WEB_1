@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>HOME</h1>
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <button id="close-btn" class="btn-close">&times;</button>
+            <nav class="sidebar-nav">
+                <h3>Menú</h3>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Ajustes</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <button id="open-btn" class="btn-toggle">☰ Abrir Menú</button>
+            
+            <section class="card-grid">
+                <article class="card fade-in">
+                    <img src="https://picsum.photos/400/250?random=1" alt="Imagen" class="card-img">
+                    <div class="card-body">
+                        <h3>Título de la Tarjeta</h3>
+                        <p>Descripción con tipografía jerárquica clara y estructurada.</p>
+                        <button class="boton boton-primary">Ver más</button>
+                    </div>
+                </article>
+
+                <article class="card card-alt fade-in">
+                    <img src="https://picsum.photos/400/250?random=2" alt="Imagen" class="card-img">
+                    <div class="card-body">
+                        <h3>Variante Oscura</h3>
+                        <p>Esta tarjeta usa variables CSS para un tema oscuro dinámico.</p>
+                        <button class="boton boton-primary">Acción</button>
+                    </div>
+                </article>
+
+                <article class="card fade-in">
+                    <img src="https://picsum.photos/400/250?random=3" alt="Imagen" class="card-img">
+                    <div class="card-body">
+                        <h3>Layout Grid</h3>
+                        <p>Las tarjetas se ajustan solas según el tamaño de la pantalla.</p>
+                        <button class="boton boton-primary">Info</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>- Ejercicios -</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

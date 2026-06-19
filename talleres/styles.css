@@ -1,0 +1,17 @@
+legend {
+    color: rgb(246, 0, 0);
+}
+
+
+
+.texto-amarillo{
+    color: yellow
+}
+
+#texto-verde {
+    color: green
+}
+
+input[type="email"] {
+    border-radius: 10px 3px 17px 2px;
+}
